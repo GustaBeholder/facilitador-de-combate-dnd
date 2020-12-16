@@ -75,3 +75,108 @@ body {
     height: 100px;
     background-color: black;
 }
+
+.footer-container > .social-media{
+    display: flex;
+    position: relative;
+    left: 45%;
+    top: 50%;
+    font-size: 15px;
+}
+
+.footer-container > .social-media a{
+    color: #e6e0d1;
+    margin: 0 10px
+}
+
+small{
+    color:  #e6e0d1;
+    display: flex;
+    position: relative;
+    left: 43%;
+    top: 60%;
+    font-size: 10px;
+}
+
+
+.h2-text{
+    width: 400px;
+    height: 50px;
+    color: #e6e0d1;
+    position: absolute;
+    display: inline;
+    top: 20%;
+    left: 10%;
+}
+
+.inputs{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    
+}
+
+.inputs input{
+    width: 170px;
+    height: 30px;
+    margin: 10px 0px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    color: #e6e0d1;
+    
+}
+::-webkit-input-placeholder {
+    color: #e6e0d1;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #e6e0d1;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #e6e0d1;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #e6e0d1;  
+ }
+
+.inputs button{
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 20px;
+    border:none;
+    cursor:pointer;
+    background-color: #b57070;
+    color:#030000;
+}
+
+.inputs button:hover{
+    transform: scale(1.05);
+}
+
+.combate-ordenado{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    
+}
+.combate-ordenado button{
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 20px;
+    border:none;
+    cursor:pointer;
+    background-color: #b57070;
+    color:#030000;
+}
+
+.combate-ordenado button:hover{
+    transform: scale(1.05);
+}
+

@@ -24,10 +24,48 @@
                 <li><a href="#">Sobre</a></li>
             </ul>
         </nav>
-
     </header>
-    <footer class="footer-container">
 
+    <main> 
+        <div class="h2-text">
+            <h2>Vamos organizar seu combate!</h2>
+        </div>
+        <div class="inputs">
+            <div>
+                <input type="text" name="nome-player" id="nome" placeholder="Nome do personagem!">
+            </div>
+            
+            <div>
+                <input type="number" name="iniciativa-player" id="ini" placeholder="iniciativa do personagem!">
+            </div>
+            <div>
+                <button onclick="criaNovoJogador();">ADCIONAR JOGADOR</button>
+            </div>
+        </div>
+        <div class="combate-ordenado">
+            <div class="contador">
+                <h4>Jogadres Adicionados</h4>
+                <p id="valor-contador">0</p>
+            </div>
+            <div>
+                <ul id="lista">
+
+                </ul>
+            </div>
+            <div>
+                <button onclick="exibirJogadores();">ORDENAR COMBATE</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <aside class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/GustaBeholder"><i class="fab fa-github"></i></a>
+        </aside>
+        <small>&copy; Copyright 2020, Gustavo Soares</small>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>
